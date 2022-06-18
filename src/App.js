@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://i.imgur.com/krIX3Sn.jpg" height={300} alt="Dad"/>
+        <img src="https://i.imgur.com/krIX3Sn.jpg" height={300} style={{"padding": "20px"}} alt="Dad"/>
         <div className='container'>
         <div className='title'>Pat's Retirement Countdown</div>
       <Countdown date={time} renderer={renderer}/>
